@@ -1,0 +1,56 @@
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 700px; /* Задайте желаемую высоту слайда */
+  text-align: center;
+  font-size: 30px; /* Настройте размер текста */
+  margin-bottom: 50px;
+}
+
+.slide-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Занимает всю высоту слайда */
+}
+
+.swiper-status {
+  position: absolute;
+  font-size: 40px;
+  bottom: 200px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+}
+
+.mainSwiper {
+  position: relative;
+  background-image: url("../../Asserts/interOne.jpg"); /* Укажите путь к вашему изображению */
+  background-size: cover; /* Масштабирует изображение, чтобы оно покрывало весь слайд */
+  background-position: center; /* Центрирует изображение */
+  background-repeat: no-repeat; /* Отключает повторение изображения */
+  height: 100%; /* Занимает всю высоту контейнера */
+  max-width: 100%; /* Занимает всю ширину контейнера */
+}
+
+/* .swiper-pagination {
+  background-color: rgba(222, 43, 43, 0.5) !important;
+} */
+.swiper-pagination-bullet {
+  background-color: #ffffff;
+}
+
+.swiper-button-next {
+  margin-right: 50px;
+  color: #ffffff; /* Красный цвет */
+}
+
+.swiper-button-prev {
+  margin-left: 50px;
+  color: #ffffff; /* Красный цвет */
+}
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  color: #bbbbbb; /* Более светлый оттенок красного */
+}

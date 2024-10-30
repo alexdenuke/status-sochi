@@ -1,0 +1,167 @@
+body {
+  background-image: url("/src/Asserts/obratno.jpg");
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  margin: 0;
+}
+
+#hero {
+  background-image: url("Asserts/mobglav.jpg");
+  background-color: rgba(111, 112, 112, 0.6);
+  width: 100%;
+  height: 85vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.hero {
+  background-image: url("Asserts/mobglav.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: calc(100vh - 55px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.whatsup-icon {
+  display: none;
+}
+@media (min-width: 992px) {
+  .whatsup-icon {
+    display: block;
+  }
+}
+.lozung {
+  width: 100%;
+  height: 8vh;
+}
+.atmosfer {
+  width: 100%;
+}
+
+h2,
+h3,
+h4,
+p,
+li,
+ul {
+  color: white;
+  font-family: "Playfair", serif;
+}
+
+.about li ul {
+  list-style-type: none;
+}
+
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.map-responsive {
+  padding-top: 8%;
+  overflow: hidden;
+  padding-bottom: 34%;
+  position: relative;
+  height: 0;
+}
+
+.map-responsive iframe {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.pokazvmobile {
+  display: none;
+}
+
+.navbar-collapse {
+  justify-content: center;
+}
+
+@media all and (max-width: 1600px) {
+  img {
+    width: 100%;
+  }
+}
+
+@media all and (min-width: 991px) {
+  img {
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 768px) {
+  body {
+    background-image: none;
+    background-color: #212429 !important;
+  }
+
+  .adeptFoter {
+    text-align: center;
+  }
+
+  .adeptPe {
+    font-size: smaller;
+  }
+
+  .fixednon {
+    display: none;
+  }
+  .flex-col-item-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .pokazvmobile {
+    display: block;
+  }
+
+  #hero {
+    width: 100%;
+    height: 68vh;
+  }
+
+  .lozung {
+    width: 100%;
+    height: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    font-size: 24px;
+  }
+  .line {
+    border-bottom: 1px solid rgb(75, 75, 75);
+  }
+
+  .fon {
+    background-color: #212529;
+    width: 100%;
+  }
+  .navbar-toggler {
+    margin-left: 75% !important;
+    /* Сдвигает гамбургер вправо */
+  }
+}
+@media (max-width: 769px) {
+  .onlyDesc {
+    display: none;
+  }
+}
