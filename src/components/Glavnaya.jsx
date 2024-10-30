@@ -133,9 +133,9 @@ export const Glavnaya = () => (
             </a>
           </div>
 
-          <div className="d-flex lozung align-items-center atmosfer line">
+          <div className="">
             <div className="lozung text-center atmosfer">
-              <div className="vuebon lozung fst-italic fon atmosfer">
+              <div className="vuebon lozung fst-italic fon atmosfer vcentre">
                 Атмосферные интерьеры с характером
               </div>
             </div>

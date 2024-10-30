@@ -8,6 +8,12 @@
   margin-bottom: 50px;
 }
 
+@media (max-width: 1300px) {
+  .swiper-slide {
+    height: 500px;
+  }
+}
+
 .slide-wrap {
   display: flex;
   justify-content: center;
